@@ -41,6 +41,6 @@
                         <con:parameters/>
                     </con:restRequest>
                 </con:config>
-            </con:testStep><con:testStep type="VirtRunnerTestStep" name="Stop Virt Service" id="0b413c65-264a-4f6f-adee-e4f02eed2c81"><con:settings/><con:config><url>localhost</url><server>Account creation mock</server><action>stop</action></con:config></con:testStep><con:properties/>
+            </con:testStep><con:properties/>
             <con:reportParameters/>
         <con:breakPoints><con:testStepId>d6e19654-c7c2-41d5-8238-4b0ea65244c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase>
