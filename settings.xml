@@ -14,7 +14,6 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
-  <con:reporting/>
   <con:authRepository/>
   <con:tags/>
 </con:soapui-project>
