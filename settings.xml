@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="85821583-ce98-4a33-88e0-11c781b99b99" created="2.3.0-SNAPSHOT" activeEnvironment="Default environment" name="Project 6" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="85821583-ce98-4a33-88e0-11c781b99b99fileName">Project-6-readyapi-project</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:authRepository/>
+  <con:tags/>
+</con:soapui-project>
