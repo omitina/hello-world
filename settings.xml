@@ -3,6 +3,10 @@
   <con:settings>
     <con:setting id="b02c9a49-dafd-4527-bab2-15f56375a86afileName">Project-1</con:setting>
   </con:settings>
+  <con:vcsConfiguration>
+    <con:vcsName>Git</con:vcsName>
+    <con:repositoryIdentifier>https://github.com/omitina/hello-world</con:repositoryIdentifier>
+  </con:vcsConfiguration>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:properties/>
   <con:wssContainer/>
