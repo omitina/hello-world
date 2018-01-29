@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="df0d6197-53a6-4aff-80b3-d76e4490ed72" created="2.3.0-SNAPSHOT" activeEnvironment="Default environment" name="Project 12" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="df0d6197-53a6-4aff-80b3-d76e4490ed72fileName">Project-12</con:setting>
+  </con:settings>
+  <con:vcsConfiguration>
+    <con:vcsName>Git</con:vcsName>
+    <con:repositoryIdentifier>https://github.com/omitina/hello-world</con:repositoryIdentifier>
+  </con:vcsConfiguration>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:properties/>
   <con:wssContainer/>
@@ -8,6 +14,7 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
+  <con:reporting/>
   <con:authRepository/>
   <con:tags/>
 </con:soapui-project>
