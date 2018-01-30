@@ -29,12 +29,6 @@
       <delay>20000</delay>
     </con:config>
   </con:testStep>
-  <con:testStep type="groovy" name="Groovy Script" id="1f5491b2-76ba-4a4c-8a95-febd1f4757d5">
-    <con:settings/>
-    <con:config>
-      <script/>
-    </con:config>
-  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
   <con:breakPoints>
