@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="4f8807d5-027d-4dc4-8d54-82b68d0138bc" name="rapis02.aqa.com.ru REST service 1" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="http://rapis02.aqa.com.ru/wcfrest/Service1-Swagger-2.0.json" basePath="/WCFREST/Service.svc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:description>#### Test for Swagger 2.0
+Placed on http://rapis02.aqa.com.ru/
+</con:description><con:settings><con:setting id="4f8807d5-027d-4dc4-8d54-82b68d0138bcfileName">rapis02.aqa.com.ru-REST-service-1</con:setting></con:settings><con:definitionCache type="TEXT" rootPart="http://rapis02.aqa.com.ru/wcfrest/Service1-Swagger-2.0.json"><con:part><con:url>http://rapis02.aqa.com.ru/wcfrest/Service1-Swagger-2.0.json</con:url><con:content>{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "rapis02.aqa.com.ru REST service 1",
+        "description": "#### Test for Swagger 2.0\nPlaced on http://rapis02.aqa.com.ru/\n"
+    },
+    "schemes": [
+        "http"
+    ],
+    "host": "rapis02.aqa.com.ru",
+    "basePath": "/WCFREST/Service.svc/",
+    "paths": {
+        "/Vse": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Vse response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "x",
+                        "in": "query",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "y",
+                        "in": "query",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "z",
+                        "in": "query",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/transferArray": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "transferArray response"
+                    }
+                }
+            }
+        },
+        "/HelloWorld": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "HelloWorld response"
+                    }
+                }
+            }
+        },
+        "/Date": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Date response"
+                    }
+                }
+            }
+        },
+        "/delayResponse": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "delayResponse response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/GetAllRecords": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "GetAllRecords response"
+                    }
+                }
+            }
+        },
+        "/testUshort": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testUshort response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/ConStroka": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "ConStroka response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "x",
+                        "in": "query",
+                        "type": "string"
+                    },
+                    {
+                        "name": "y",
+                        "in": "query",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/testUlong": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testUlong response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/testUint": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testUint response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/testString": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testString response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/testInt": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testInt response"
+                    }
+                }
+            }
+        },
+        "/testLong": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testLong response"
+                    }
+                }
+            }
+        },
+        "/testSbyte": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testSbyte response"
+                    }
+                }
+            }
+        },
+        "/testShort": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testShort response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/testFloat": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testFloat response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        "/testDouble": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testDouble response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        "/testDecimal": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testDecimal response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        "/testClassArray": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testClassArray response"
+                    }
+                }
+            }
+        },
+        "/testClass": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testClass response"
+                    }
+                }
+            }
+        },
+        "/testChar": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testChar response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/testByte": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testByte response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "number",
+                        "format": "byte"
+                    }
+                ]
+            }
+        },
+        "/testBool": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "testBool response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "t",
+                        "in": "query",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        },
+        "/testComplexClass": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "testComplexClass response"
+                    }
+                }
+            }
+        },
+        "/testClassTransferArray": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "testClassTransferArray response"
+                    }
+                }
+            }
+        },
+        "/testClassArrayInputArray": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "testClassArrayInputArray response"
+                    }
+                }
+            }
+        },
+        "/TestClassArray2InputArray": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "TestClassArray2InputArray response"
+                    }
+                }
+            }
+        },
+        "/getArrayInt": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "getArrayInt response"
+                    }
+                }
+            }
+        },
+        "/getArrayString": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "getArrayString response"
+                    }
+                }
+            }
+        },
+        "/inheritanceClass": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "inheritanceClass response"
+                    }
+                }
+            }
+        },
+        "/inheritanceClassSuper": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "inheritanceClassSuper response"
+                    }
+                }
+            }
+        },
+        "/massiv": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "massiv response"
+                    }
+                }
+            }
+        },
+        "/InputDate": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "InputDate response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "d",
+                        "in": "query",
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                ]
+            }
+        },
+        "/Ran": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Ran response"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "x",
+                        "in": "query",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/Stroka": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "objectInObject response"
+                    }
+                }
+            },
+            "/objectInObject": null
+        }
+    }
+}</con:content><con:type>https://swagger.io/swagger2/specification</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://rapis02.aqa.com.ru</con:endpoint></con:endpoints></con:interface>
